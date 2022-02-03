@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://cdn.historycollection.com/wp-content/uploads/2017/05/TempleofBacchus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+article{
+    margin: 0px 400px;
+    padding: 0;
+    flex: auto;
+    
+}
+
+article p{
+    font-size: larger;
+    margin: 30px 30px;
+    color: aliceblue;
+
+}
+
+header h2,h1{
+    text-align: center;
+    color: white;
+}
+
+nav li{
+
+}
+
+.mainclassnavlink{
+
+}
+
+.mainnavlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainnavlinks li{
+    list-style: none;
+}
+
+.mainnavlink{
+    padding: 40px;
+}
+
+a.mainnavlink{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: salmon;
+}
+
